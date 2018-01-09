@@ -13,7 +13,36 @@
 		C71F159D1FF1FABD007775A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71F159C1FF1FABD007775A1 /* Assets.xcassets */; };
 		C71F15A01FF1FABD007775A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71F159E1FF1FABD007775A1 /* LaunchScreen.storyboard */; };
 		C71F15A31FF1FABD007775A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C71F15A21FF1FABD007775A1 /* main.m */; };
+		C71F15B21FF1FB66007775A1 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C71F15B11FF1FB66007775A1 /* KeyboardViewController.m */; };
+		C71F15B61FF1FB66007775A1 /* k0.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C71F15AE1FF1FB66007775A1 /* k0.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C71F15BF1FF213D7007775A1 /* SettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C71F15BE1FF213D7007775A1 /* SettingCell.m */; };
+		C783221F1FF4358000C62C56 /* KeyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C783221E1FF4358000C62C56 /* KeyButton.m */; };
+		C7F147231FFB75E6003E4EE6 /* deleteIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C7F147221FFB75E5003E4EE6 /* deleteIcon.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C71F15B41FF1FB66007775A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C71F15881FF1FABD007775A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71F15AD1FF1FB66007775A1;
+			remoteInfo = k0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C71F15BA1FF1FB66007775A1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C71F15B61FF1FB66007775A1 /* k0.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C71F15901FF1FABD007775A1 /* KeyNaught.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyNaught.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +55,28 @@
 		C71F159F1FF1FABD007775A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C71F15A11FF1FABD007775A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C71F15A21FF1FABD007775A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C71F15A91FF1FAFF007775A1 /* KeyNaught.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyNaught.entitlements; sourceTree = "<group>"; };
+		C71F15AE1FF1FB66007775A1 /* k0.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = k0.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71F15B01FF1FB66007775A1 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		C71F15B11FF1FB66007775A1 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		C71F15B31FF1FB66007775A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71F15BB1FF1FB6D007775A1 /* k0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = k0.entitlements; sourceTree = "<group>"; };
+		C71F15BE1FF213D7007775A1 /* SettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingCell.m; sourceTree = "<group>"; };
+		C71F15C01FF213E6007775A1 /* SettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingCell.h; sourceTree = "<group>"; };
+		C783221E1FF4358000C62C56 /* KeyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyButton.m; sourceTree = "<group>"; };
+		C78322201FF4359000C62C56 /* KeyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyButton.h; sourceTree = "<group>"; };
+		C7F147221FFB75E5003E4EE6 /* deleteIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deleteIcon.png; path = ../../../../Downloads/deleteIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C71F158D1FF1FABD007775A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71F15AB1FF1FB66007775A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				C71F15921FF1FABD007775A1 /* KeyNaught */,
+				C71F15AF1FF1FB66007775A1 /* k0 */,
 				C71F15911FF1FABD007775A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				C71F15901FF1FABD007775A1 /* KeyNaught.app */,
+				C71F15AE1FF1FB66007775A1 /* k0.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +107,7 @@
 		C71F15921FF1FABD007775A1 /* KeyNaught */ = {
 			isa = PBXGroup;
 			children = (
+				C71F15A91FF1FAFF007775A1 /* KeyNaught.entitlements */,
 				C71F15931FF1FABD007775A1 /* AppDelegate.h */,
 				C71F15941FF1FABD007775A1 /* AppDelegate.m */,
 				C71F15961FF1FABD007775A1 /* ViewController.h */,
@@ -67,8 +117,24 @@
 				C71F159E1FF1FABD007775A1 /* LaunchScreen.storyboard */,
 				C71F15A11FF1FABD007775A1 /* Info.plist */,
 				C71F15A21FF1FABD007775A1 /* main.m */,
+				C71F15C01FF213E6007775A1 /* SettingCell.h */,
+				C71F15BE1FF213D7007775A1 /* SettingCell.m */,
 			);
 			path = KeyNaught;
+			sourceTree = "<group>";
+		};
+		C71F15AF1FF1FB66007775A1 /* k0 */ = {
+			isa = PBXGroup;
+			children = (
+				C7F147221FFB75E5003E4EE6 /* deleteIcon.png */,
+				C71F15BB1FF1FB6D007775A1 /* k0.entitlements */,
+				C78322201FF4359000C62C56 /* KeyButton.h */,
+				C783221E1FF4358000C62C56 /* KeyButton.m */,
+				C71F15B01FF1FB66007775A1 /* KeyboardViewController.h */,
+				C71F15B11FF1FB66007775A1 /* KeyboardViewController.m */,
+				C71F15B31FF1FB66007775A1 /* Info.plist */,
+			);
+			path = k0;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,15 +147,34 @@
 				C71F158C1FF1FABD007775A1 /* Sources */,
 				C71F158D1FF1FABD007775A1 /* Frameworks */,
 				C71F158E1FF1FABD007775A1 /* Resources */,
+				C71F15BA1FF1FB66007775A1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C71F15B51FF1FB66007775A1 /* PBXTargetDependency */,
 			);
 			name = KeyNaught;
 			productName = KeyNaught;
 			productReference = C71F15901FF1FABD007775A1 /* KeyNaught.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C71F15AD1FF1FB66007775A1 /* k0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71F15B71FF1FB66007775A1 /* Build configuration list for PBXNativeTarget "k0" */;
+			buildPhases = (
+				C71F15AA1FF1FB66007775A1 /* Sources */,
+				C71F15AB1FF1FB66007775A1 /* Frameworks */,
+				C71F15AC1FF1FB66007775A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = k0;
+			productName = k0;
+			productReference = C71F15AE1FF1FB66007775A1 /* k0.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -103,6 +188,20 @@
 					C71F158F1FF1FABD007775A1 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					C71F15AD1FF1FB66007775A1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -120,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				C71F158F1FF1FABD007775A1 /* KeyNaught */,
+				C71F15AD1FF1FB66007775A1 /* k0 */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +235,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C71F15AC1FF1FB66007775A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F147231FFB75E6003E4EE6 /* deleteIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,13 +250,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71F15BF1FF213D7007775A1 /* SettingCell.m in Sources */,
 				C71F15981FF1FABD007775A1 /* ViewController.m in Sources */,
 				C71F15A31FF1FABD007775A1 /* main.m in Sources */,
 				C71F15951FF1FABD007775A1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C71F15AA1FF1FB66007775A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71F15B21FF1FB66007775A1 /* KeyboardViewController.m in Sources */,
+				C783221F1FF4358000C62C56 /* KeyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C71F15B51FF1FB66007775A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71F15AD1FF1FB66007775A1 /* k0 */;
+			targetProxy = C71F15B41FF1FB66007775A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C71F15991FF1FABD007775A1 /* Main.storyboard */ = {
@@ -278,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyNaught/KeyNaught.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GT3T8SC6QU;
 				INFOPLIST_FILE = KeyNaught/Info.plist;
@@ -292,12 +419,43 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeyNaught/KeyNaught.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GT3T8SC6QU;
 				INFOPLIST_FILE = KeyNaught/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.doop.KeyNaught;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C71F15B81FF1FB66007775A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = k0/k0.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT3T8SC6QU;
+				INFOPLIST_FILE = k0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doop.KeyNaught.k0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C71F15B91FF1FB66007775A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = k0/k0.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT3T8SC6QU;
+				INFOPLIST_FILE = k0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.doop.KeyNaught.k0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -319,6 +477,15 @@
 			buildConfigurations = (
 				C71F15A71FF1FABD007775A1 /* Debug */,
 				C71F15A81FF1FABD007775A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71F15B71FF1FB66007775A1 /* Build configuration list for PBXNativeTarget "k0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71F15B81FF1FB66007775A1 /* Debug */,
+				C71F15B91FF1FB66007775A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
